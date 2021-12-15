@@ -1,0 +1,32 @@
+Comandos básico:
+Lista arquivos pastas do diretório corrente:
+Windows (CMD)      - dir
+Linux   (Terminal) - ls
+
+Abrir uma pasta de um local onte você está acessando:
+Windows (CMD)      - cd (nome_da_pasta ou caminho)
+Linux   (Terminal) - cd (nome_da_pasta ou caminho)
+
+Voltar um nível de pasta onde vc está:
+Windows (CMD)      - cd..
+Linux   (Terminal) - cd..
+
+Volta a raiz da unidade:
+Windows (CMD)      - cd /
+Linux   (Terminal) - cd /
+
+Limpar terminal:
+Windows (CMD)      - cls
+Linux   (Terminal) - clear (Ctrl + L)
+
+Criar uma pasta:
+Windows (CMD)      - mkdir (Nome a pasta)
+Linux   (Terminal) - mkdir (Nome a pasta)
+
+Deletar um arquivo:
+Windows (CMD)      - del nome_do_arquivo.extensão
+Linux   (Terminal) - del nome_do_arquivo.extensão
+
+Deletar uma pasta inteira:
+Windows (CMD)      - rmdir nome_da_pasta
+Linux   (Terminal) - rm -rf nome_da_pasta

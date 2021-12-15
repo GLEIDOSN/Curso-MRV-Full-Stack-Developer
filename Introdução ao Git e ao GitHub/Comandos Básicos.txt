@@ -1,0 +1,52 @@
+Iniciando o git em um repositório
+git init
+
+Ver arquivos ocultos d pasta
+Windows - ls -a
+
+Configurações iniciais para iniciar o desenvolvimento:
+git config --global user.email "Gleidson@hotmail.com"
+git config --global user.name "Gleidson"
+
+Adicionar ajustes para commitar
+git add *
+git commit -m "Commit de teste" 
+
+git status:
+verifica se tem alterações nos arquivos
+
+git config --list
+Traz todas as configurações do seu git na máquina
+
+Apagar configuração do git
+git config --global --unset user.email
+git config --global --unset user.nickname
+
+Configurar novamente
+git config --global user.email "fc_gleidson@hotmail.com"
+git config --global user.nickname "Gleidson"
+
+Adicionar um repositório remoto
+git remote add origin https://github.com/GLEIDOSN/SalesWebMVC.git
+
+git remote -v
+lista os repositórios remotos cadastrados
+
+"Empurar" as alterações para o repositório
+git push origin master
+
+Adicionar arquivo para commit
+git add * ou nome do arquivo
+
+Commitando
+git commit --m "Adicionar mensagem"
+
+Fazer push
+git push origin master
+
+Atualizar seu repositorio
+git pull origin master
+
+Clonar um repositório
+git clone endereço_do_repositorio
+
